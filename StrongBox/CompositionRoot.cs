@@ -1,0 +1,33 @@
+﻿using Autofac;
+
+namespace Messerli.StrongBox
+{
+    /// <summary>
+    /// This is the composition root of your program, register your services here.
+    /// </summary>
+    internal class CompositionRoot
+    {
+        private readonly ContainerBuilder _builder = new ContainerBuilder();
+
+        private CompositionRoot()
+        {
+        }
+
+        public static CompositionRoot Create()
+        {
+            return new CompositionRoot();
+        }
+
+        public CompositionRoot RegisterApplication()
+        {
+            _builder.RegisterType<Application>().As<IApplication>();
+
+            return this;
+        }
+
+        public IContainer Build()
+        {
+            return _builder.Build();
+        }
+    }
+}
