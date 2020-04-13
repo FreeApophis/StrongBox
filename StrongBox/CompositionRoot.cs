@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Messerli.StrongBox
+namespace Apophis.StrongBox
 {
     /// <summary>
     /// This is the composition root of your program, register your services here.

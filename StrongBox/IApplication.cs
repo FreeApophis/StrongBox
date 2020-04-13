@@ -1,4 +1,4 @@
-﻿namespace Messerli.StrongBox
+﻿namespace Apophis.StrongBox
 {
     /// <summary>
     /// Your application interface, the Run is the main entry point to your program.

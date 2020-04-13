@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETCoreApp,Version=v3.1": {
+      "Autofac": {
+        "type": "Direct",
+        "requested": "[5.1.2, 6.0.0)",
+        "resolved": "5.1.2",
+        "contentHash": "iGEx5Cm6Uor6/bZkgCHHjJO8cEQvDSOxgzNmHGJgGOnLDCe0b8NpOlhotsqx8dFvBDCsEX/V3YGRR30sRQLsxw=="
+      },
+      "Messerli.CodeStyle": {
+        "type": "Direct",
+        "requested": "[1.0.1, )",
+        "resolved": "1.0.1",
+        "contentHash": "dCHURSod9erZ3RWlM+yKiMJg5rFWP8leTOAIRlooQA0PjUkSzE494lDR1bluihwJZm1/9ET/bJGpS1e0FZYkxQ==",
+        "dependencies": {
+          "IDisposableAnalyzers": "3.2.0",
+          "StyleCop.Analyzers": "1.2.0-beta.113"
+        }
+      },
+      "System.CommandLine": {
+        "type": "Direct",
+        "requested": "[2.0.0-beta1.20158.1, )",
+        "resolved": "2.0.0-beta1.20158.1",
+        "contentHash": "kFwEhvsl6QGn7cMipzOcMJwnst3+zdS7tdI+LLt9d2CADQirbrTR+Kdexp0Li/iaeLe3MP9zrFFvpJgmPOxS0Q==",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "system.memory": "4.5.3"
+        }
+      },
+      "IDisposableAnalyzers": {
+        "type": "Transitive",
+        "resolved": "3.2.0",
+        "contentHash": "9UelxQG7Kni25Cg63W1RTK3wfJaKdbGcZgCoD7ofgItTtpFQmUkZSk8hpXXnEZftOGPIJdGdMUaqoXyfMAy8Tw=="
+      },
+      "Microsoft.CSharp": {
+        "type": "Transitive",
+        "resolved": "4.4.1",
+        "contentHash": "A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA=="
+      },
+      "StyleCop.Analyzers": {
+        "type": "Transitive",
+        "resolved": "1.2.0-beta.113",
+        "contentHash": "MUwtTDGd8Cgb1YAyAL88U1cpH3hlrS0CS/dcxp/deqVa7Gh6V4U1XJZ9sZkfjGeL+Cbhq4KV8mo98d9wJ4RVsA==",
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.113"
+        }
+      },
+      "StyleCop.Analyzers.Unstable": {
+        "type": "Transitive",
+        "resolved": "1.2.0.113",
+        "contentHash": "/RIaSRC+5YFK0ZGxHVTK+UaFp8H0k7oIVWpz2NmjRl5oeMo/j+C8Jitfh3QZY6rQ70CGkOyPtS8UlUDua2pMVA=="
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA=="
+      }
+    }
+  }
+}

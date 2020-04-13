@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Messerli.StrongBox
+namespace Apophis.StrongBox
 {
     internal class Program
     {

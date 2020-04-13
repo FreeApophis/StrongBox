@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk; Microsoft.Build.CentralPackageVersions">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Messerli.StrongBox</RootNamespace>
+    <RootNamespace>Apophis.StrongBox</RootNamespace>
     <LangVersion>8.0</LangVersion>
     <Nullable>enable</Nullable>
     <NullableContextOptions>enable</NullableContextOptions>
@@ -14,9 +14,10 @@
     <StartupObject />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>../../nupkg/plugins</PackageOutputPath>
-    <Version>1.0.0</Version>
+    <Version>0.1-alpha</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac"/>
+    <PackageReference Include="Autofac" />
+    <PackageReference Include="System.CommandLine" />
   </ItemGroup>
 </Project>

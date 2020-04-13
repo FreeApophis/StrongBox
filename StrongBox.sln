@@ -2,10 +2,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "StrongBox\StrongBox.csproj", "{1AD2C955-FD64-4FF4-B848-DF0DF4489B1F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1AD2C955-FD64-4FF4-B848-DF0DF4489B1F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		paket.dependencies = paket.dependencies
+		Directory.Build.targets = Directory.Build.targets
+		global.json = global.json
+		LICENSE = LICENSE
+		Packages.props = Packages.props
+		publish.ps1 = publish.ps1
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongBox", "StrongBox\StrongBox.csproj", "{A758434E-43B6-4033-BAFD-06188445061E}"
@@ -24,6 +28,9 @@ Global
 		{A758434E-43B6-4033-BAFD-06188445061E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A758434E-43B6-4033-BAFD-06188445061E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A758434E-43B6-4033-BAFD-06188445061E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74D6DD55-C153-451C-B4A5-68B9331D8984}
