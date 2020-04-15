@@ -13,7 +13,7 @@ namespace Apophis.StrongBox
 
             var application = container.Resolve<IApplication>();
 
-            return application.Run(args);
+            return application.Run(args).Result;
         }
     }
 }
