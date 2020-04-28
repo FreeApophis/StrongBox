@@ -21,6 +21,7 @@ namespace Apophis.StrongBox
         public CompositionRoot RegisterApplication()
         {
             _builder.RegisterType<Application>().As<IApplication>();
+            _builder.RegisterType<RootCommandBuilder>().As<IRootCommandBuilder>();
 
             return this;
         }
