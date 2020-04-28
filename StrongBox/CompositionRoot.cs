@@ -29,7 +29,10 @@ namespace Apophis.StrongBox
 
         public CompositionRoot RegisterModules()
         {
-            _builder.RegisterModule<StrongBoxClientModule>();
+            _builder.RegisterModule(new StrongBoxClientModule
+            {
+                ClientMode = ClientMode.Local,
+            });
 
             return this;
         }
