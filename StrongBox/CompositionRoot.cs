@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using Apophis.StrongBox.Client;
+using Autofac;
 
 namespace Apophis.StrongBox
 {
@@ -22,6 +23,13 @@ namespace Apophis.StrongBox
         {
             _builder.RegisterType<Application>().As<IApplication>();
             _builder.RegisterType<RootCommandBuilder>().As<IRootCommandBuilder>();
+
+            return this;
+        }
+
+        public CompositionRoot RegisterModules()
+        {
+            _builder.RegisterModule<StrongBoxClientModule>();
 
             return this;
         }

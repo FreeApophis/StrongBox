@@ -9,6 +9,7 @@ namespace Apophis.StrongBox
             using var container = CompositionRoot
                 .Create()
                 .RegisterApplication()
+                .RegisterModules()
                 .Build();
 
             var application = container.Resolve<IApplication>();

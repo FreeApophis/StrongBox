@@ -20,4 +20,7 @@
     <PackageReference Include="Autofac" />
     <PackageReference Include="System.CommandLine" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StrongBox.Client\StrongBox.Client.csproj" />
+  </ItemGroup>
 </Project>

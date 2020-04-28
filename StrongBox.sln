@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongBox", "StrongBox\StrongBox.csproj", "{A758434E-43B6-4033-BAFD-06188445061E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongBox.Client", "StrongBox.Client\StrongBox.Client.csproj", "{642BDE95-38AA-42CE-A27E-E5BDEDDE4A29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{A758434E-43B6-4033-BAFD-06188445061E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A758434E-43B6-4033-BAFD-06188445061E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A758434E-43B6-4033-BAFD-06188445061E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642BDE95-38AA-42CE-A27E-E5BDEDDE4A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642BDE95-38AA-42CE-A27E-E5BDEDDE4A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642BDE95-38AA-42CE-A27E-E5BDEDDE4A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642BDE95-38AA-42CE-A27E-E5BDEDDE4A29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
