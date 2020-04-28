@@ -4,25 +4,25 @@
     ".NETCoreApp,Version=v3.1": {
       "Autofac": {
         "type": "Direct",
-        "requested": "[5.1.2, 6.0.0)",
-        "resolved": "5.1.2",
-        "contentHash": "iGEx5Cm6Uor6/bZkgCHHjJO8cEQvDSOxgzNmHGJgGOnLDCe0b8NpOlhotsqx8dFvBDCsEX/V3YGRR30sRQLsxw=="
+        "requested": "[5.1.4, 6.0.0)",
+        "resolved": "5.1.4",
+        "contentHash": "MsAEZJNCBTwZ21cBaFosWvR+zNG3VXB8y8qn3HmYl6m9iR/CDqDQykqBzfApbqj3N1l2I4qVBPA2exIdHJvANQ=="
       },
       "Messerli.CodeStyle": {
         "type": "Direct",
-        "requested": "[1.0.1, )",
-        "resolved": "1.0.1",
-        "contentHash": "dCHURSod9erZ3RWlM+yKiMJg5rFWP8leTOAIRlooQA0PjUkSzE494lDR1bluihwJZm1/9ET/bJGpS1e0FZYkxQ==",
+        "requested": "[1.1.0, )",
+        "resolved": "1.1.0",
+        "contentHash": "H8shjc2RvHuVgklZmIJ3FULo15x53AK3pJ8kruIXukvVAewGBwp9nFh+a47REKEFZ/FgcBf9hv9Tz4qgQILueQ==",
         "dependencies": {
-          "IDisposableAnalyzers": "3.2.0",
+          "IDisposableAnalyzers": "3.3.2",
           "StyleCop.Analyzers": "1.2.0-beta.113"
         }
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta1.20158.1, )",
-        "resolved": "2.0.0-beta1.20158.1",
-        "contentHash": "kFwEhvsl6QGn7cMipzOcMJwnst3+zdS7tdI+LLt9d2CADQirbrTR+Kdexp0Li/iaeLe3MP9zrFFvpJgmPOxS0Q==",
+        "requested": "[2.0.0-beta1.20214.1, )",
+        "resolved": "2.0.0-beta1.20214.1",
+        "contentHash": "Hs/3ghb1nRw6Z3hiZO9mLH05JngTq15e1Dnf8g63KWv+EDBDNVx3G6zArorpSNae9wJjJ2JXJazaJn9q+HiCRg==",
         "dependencies": {
           "Microsoft.CSharp": "4.4.1",
           "system.memory": "4.5.3"
@@ -30,8 +30,8 @@
       },
       "IDisposableAnalyzers": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "9UelxQG7Kni25Cg63W1RTK3wfJaKdbGcZgCoD7ofgItTtpFQmUkZSk8hpXXnEZftOGPIJdGdMUaqoXyfMAy8Tw=="
+        "resolved": "3.3.2",
+        "contentHash": "Ljph2jas3jpaKarLIfdm6Eum9gxiyusOZRKAyqs9c40Te8SP7Ax/YA5tOxQSH4I1cXb6yaXbQsXAxhwSAYJw3Q=="
       },
       "Microsoft.CSharp": {
         "type": "Transitive",
