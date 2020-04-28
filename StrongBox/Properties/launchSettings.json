@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "StrongBox": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}
